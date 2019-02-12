@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:background="@color/colorAccent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="INPUT DATA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txt_tanggal_mulai"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/ten_margin"
+            android:background="@drawable/textbox_login_shadow"
+            android:hint="TANGGAL MULAI"
+            android:inputType="text"
+            android:textColorHint="@android:color/black"
+            android:paddingLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/txt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/ten_margin"
+            android:background="@drawable/textbox_login_shadow"
+            android:hint="NAMA"
+            android:inputType="text"
+            android:textColorHint="@android:color/black"
+            android:paddingLeft="10dp"
+            />
+        <EditText
+            android:id="@+id/txt_nope"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/ten_margin"
+            android:background="@drawable/textbox_login_shadow"
+            android:hint="NO TELP / HP"
+            android:inputType="text"
+            android:textColorHint="@android:color/black"
+            android:paddingLeft="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:text="simpan"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
